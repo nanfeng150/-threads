@@ -50,6 +50,7 @@ public:
 int main()
 {
 	try {
+		std::cout << "hello world" << std::endl;
 		std::threadpool executor{ 50 };
 		std::cout << "hello world" << std:: endl;
 		A a;
